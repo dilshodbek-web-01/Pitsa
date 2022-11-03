@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  all: inherit;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header, main, footer {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
